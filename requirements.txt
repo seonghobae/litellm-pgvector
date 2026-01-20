@@ -8,3 +8,4 @@ pgvector==0.2.4
 python-multipart==0.0.6
 litellm==1.74.3
 pydantic-settings==2.1.0 
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
